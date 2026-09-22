@@ -31,3 +31,18 @@
     - <https://cloud.189.cn/t/y2QNryq2Y3me>
   - **小飞机网盘** `极速`
     - <https://share.feijipan.com/s/5r5oaCLy>
+
+<br>
+
+### \# 赞赏码（在线乞讨）
+
+<table>
+<tr>
+<td><a>
+<img src="assets/img/wechat.jpg">
+</a></td>
+<td><a>
+<img src="assets/img/alipay.jpg">
+</a></td>
+</tr>
+</table>
