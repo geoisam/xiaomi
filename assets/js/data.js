@@ -64,10 +64,64 @@ const milink2 = [
         "size": 281160744,
         "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_3.3.1.966_d7037431.exe",
     },
+    {
+        "version": "3.3.0.652",
+        "name": "AIoT_master_3.3.0.652_4a2874f0.exe",
+        "size": 274564960,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_3.3.0.652_4a2874f0.exe",
+    },
+    {
+        "version": "3.3.0.588",
+        "name": "AIoT_master_publication_3.3.0.588.exe",
+        "size": 274574872,
+        "src": "",
+    },
+    {
+        "version": "3.3.0.546",
+        "name": "AIoT_master_publication_3.3.0.546.exe",
+        "size": 274550328,
+        "src": "",
+    },
+    {
+        "version": "3.3.0.529",
+        "name": "AIoT_master_publication_3.3.0.529.exe",
+        "size": 274589856,
+        "src": "",
+    },
+    {
+        "version": "3.3.0.507",
+        "name": "AIoT_m59_image_3.3.0.507_583e3b8d.exe",
+        "size": 274501048,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_m59_image_3.3.0.507_583e3b8d.exe",
+    },
+    {
+        "version": "3.2.0.464",
+        "name": "AIoT_master_publication_3.2.0.464_04dc6bb9.exe",
+        "size": 288628088,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_publication_3.2.0.464_04dc6bb9.exe",
+    },
+    {
+        "version": "3.2.0.296",
+        "name": "AIoT_master_3.2.0.296_2acf4b05.exe",
+        "size": 286534568,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_3.2.0.296_2acf4b05.exe",
+    },
+    {
+        "version": "3.1.0.281",
+        "name": "AIoT_master_3.1.0.281_a31f1f24.exe",
+        "size": 286464880,
+        "src": "http://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_3.1.0.281_a31f1f24.exe",
+    },
 ]
 
 // MIUI+ Beta版 (MiLink) MIUI 12.5+
 const milink1 = [
+    {
+        "version": "2.5.5.643",
+        "name": "AIoT_master_2.5.5.643_9eea650c.exe",
+        "size": 557224448,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/download/miaiot/AIoT_master_2.5.5.643_9eea650c.exe",
+    },
     {
         "version": "2.5.4.228",
         "name": "MiAIoT_Setup.exe",
