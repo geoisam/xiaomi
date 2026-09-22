@@ -1,16 +1,10 @@
 ## 小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本
 
-- **回家地址**
-  - <https://geoisam.github.io/xiaomi>
-  - <https://geoisam.pages.dev/xiaomi>
-
-<br>
+![Registry](assets/img/patch.png)
 
 - **小米电脑管家注意事项**
   - 小米电脑管家若安装时仍出现 **⌜暂未支持本设备⌟** 的提示，请检查自己的电脑是否为 `Arm架构` 或者 `x86架构` 的设备，目前所有版本均只支持 Windows10 系统及以上版本的 `x64架构` 处理器设备
-  - `wtsapi32.dll` 无法正常安装连接可以试试将注册表 `计算机\HKEY_CURRENT_USER\Software\SmartSharePatch` 的 `SpoofDevice` 字符串值改为 `TM2425` 即 REDMI Book Pro 16 2026，同理 `version.dll` 和 `msimg32.dll` 添加自定义制造商伪装，见注册表 `计算机\HKCU\Software\SmartSharePatch\SpoofManufacturer`，更多机型请自行查询 <https://www.mi.com/service/notebook/drivers>
-
-![Registry](assets/img/patch.png)
+  - `wtsapi32.dll` 无法正常安装连接可以试试将注册表 `计算机\HKEY_CURRENT_USER\Software\SmartSharePatch` 的 `SpoofDevice` 字符串值改为 `TM2425` 即 REDMI Book Pro 16 2026，同理 `version.dll` 和 `msimg32.dll` 添加自定义制造商伪装，见注册表 `计算机\HKCU\Software\SmartSharePatch\SpoofManufacturer`，更多机型请自行查询 [https://www.mi.com/service/notebook/drivers](https://www.mi.com/service/notebook/drivers?display=showall)
 
 <br>
 
