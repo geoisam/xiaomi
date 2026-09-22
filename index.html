@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本</title>
+    <meta name="description" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本" />
+    <meta name="keywords"
+        content="小米互联服务,小米电脑管家,小米妙享,MIUI+Beta版,小米远程控制,小米应用商店,XIAOMI,XiaoMi,Xiaomi,xiaomi,MI,Mi,mi,PcContinuity,PCManager,MiAIoT,MiLink,MiRemote,MiStore" />
+    <meta name="author" content="潘钜森" />
+    <meta name="author-link" content="https://github.com/geoisam/" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geoisam.github.io/xiaomi">
+    <meta property="og:title" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本">
+    <meta property="og:description" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本">
+    <meta property="og:image" content="assets/img/ic_logo_round.svg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://geoisam.github.io/xiaomi">
+    <meta property="twitter:title" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本">
+    <meta property="twitter:description" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本">
+    <meta property="twitter:image" content="assets/img/ic_logo_round.svg">
+
+    <meta itemprop="name" content="小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本" />
+    <meta itemprop="image" content="assets/img/ic_logo_round.svg" />
+
+    <link rel="icon" href="assets/img/ic_logo_round.svg" />
+
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2.1.4/mdui.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script>
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                document.querySelector("#preloader")?.remove()
+            }, 321)
+        })
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader" aria-hidden="true">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+    <!-- Top App Bar：fixed 全宽，层级在抽屉之上 -->
+    <mdui-top-app-bar id="top-bar" scroll-behavior="elevate">
+        <mdui-button-icon id="menu-btn" icon="menu--outlined"></mdui-button-icon>
+        <mdui-top-app-bar-title>小米互联服务小米电脑管家非小米笔记本安装补丁及安装包历史版本</mdui-top-app-bar-title>
+        <div class="spacer"></div>
+        <mdui-dropdown trigger="click">
+            <div class="bar-btn" slot="trigger">
+                <mdui-tooltip placement="bottom" trigger="hover">
+                    <div slot="content">主题模式</div>
+                    <mdui-button-icon class="mode"></mdui-button-icon>
+                </mdui-tooltip>
+            </div>
+            <mdui-menu class="theme" selects="single" value="auto">
+                <mdui-menu-item class="item" value="light">浅色模式</mdui-menu-item>
+                <mdui-menu-item class="item" value="dark">深色模式</mdui-menu-item>
+                <mdui-divider></mdui-divider>
+                <mdui-menu-item class="item" value="auto">跟随系统</mdui-menu-item>
+            </mdui-menu>
+        </mdui-dropdown>
+        <mdui-tooltip placement="bottom" trigger="hover">
+            <div slot="content">源代码</div>
+            <mdui-button-icon class="bar-btn" href="https://github.com/geoisam/xiaomi" target="_blank">
+                <mdui-icon src="assets/img/github.svg"></mdui-icon>
+            </mdui-button-icon>
+        </mdui-tooltip>
+        <mdui-tooltip placement="bottom" trigger="hover">
+            <div slot="content">主页</div>
+            <mdui-button-icon class="bar-btn" href="https://geoisam.github.io" target="_blank">
+                <mdui-icon src="assets/img/ic_logo_round.svg"></mdui-icon>
+            </mdui-button-icon>
+        </mdui-tooltip>
+    </mdui-top-app-bar>
+
+    <!-- Navigation Drawer：fixed 全高；>=1080 常驻，<1080 悬浮（由 main.js 按断点切换） -->
+    <mdui-navigation-drawer id="nav-drawer" modal close-on-esc close-on-overlay-click>
+        <mdui-list>
+            <mdui-list-item icon="home--outlined" href="#">首页</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#continuity">小米互联服务</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#manager">小米电脑管家</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#milink2">小米妙享</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#milink1">MIUI+ Beta版</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#miremote">小米远程控制</mdui-list-item>
+            <mdui-list-item icon="link--outlined" href="#mistore">小米应用商店</mdui-list-item>
+            <mdui-list-item icon="cloud_download--outlined" href="#yunpan">安装包及补丁</mdui-list-item>
+            <mdui-list-item icon="volunteer_activism--outlined" href="#sponsor">捐赠支持</mdui-list-item>
+        </mdui-list>
+    </mdui-navigation-drawer>
+
+    <!-- Main Content -->
+    <main class="content-wrapper">
+
+        <section id="home" class="content-section">
+            <mdui-card variant="elevated" style="width: 100%;">
+                <ul>
+                    <li>
+                        小米电脑管家若安装时仍出现<strong> ⌜暂未支持本设备⌟ </strong>的提示，请检查自己的电脑是否为 <strong>Arm架构</strong> 或者
+                        <strong>x86架构</strong> 的设备，目前所有版本均只支持 Windows10 系统及以上版本的 <strong>x64架构</strong> 处理器设备
+                    </li>
+                    <li>
+                        <strong>wtsapi32.dll</strong> 无法正常安装连接可以试试将注册表
+                        <strong>计算机\HKEY_CURRENT_USER\Software\SmartSharePatch</strong> 的 <strong>SpoofDevice</strong>
+                        字符串值改为 <strong>TM2425</strong> 即 REDMI Book Pro 16 2026，同理 <strong>version.dll</strong> 和
+                        <strong>msimg32.dll</strong>
+                        添加自定义制造商伪装，见注册表 <strong>计算机\HKCU\Software\SmartSharePatch\SpoofManufacturer</strong>，更多机型请自行查询
+                        <a href="https://www.mi.com/service/notebook/drivers"
+                            target="_blank">https://www.mi.com/service/notebook/drivers</a>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <img src="assets/img/patch.png" style="width: 500px;padding: 8px;">
+                </div>
+            </mdui-card>
+        </section>
+
+        <!-- 小米互联服务 -->
+        <section id="continuity" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/connect.png" alt="小米互联服务"></mdui-icon>
+                <h2 class="section-title">小米互联服务</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- 小米电脑管家 -->
+        <section id="manager" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/manager.png" alt="小米电脑管家"></mdui-icon>
+                <h2 class="section-title">小米电脑管家</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- 小米妙享 -->
+        <section id="milink2" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/connect.png" alt="小米妙享"></mdui-icon>
+                <h2 class="section-title">小米妙享</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- MIUI+ Beta版 -->
+        <section id="milink1" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/mialot.png" alt="MIUI+ Beta版"></mdui-icon>
+                <h2 class="section-title">MIUI+ Beta版</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- 小米远程控制 -->
+        <section id="miremote" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/remote.png" alt="小米远程控制"></mdui-icon>
+                <h2 class="section-title">小米远程控制</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- 小米应用商店 -->
+        <section id="mistore" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/store.png" alt="小米应用商店"></mdui-icon>
+                <h2 class="section-title">小米应用商店</h2>
+            </div>
+            <div class="mdui-table table-container"></div>
+        </section>
+
+        <!-- 网盘下载 -->
+        <section id="download" class="content-section">
+            <div class="section-header">
+                <mdui-icon class="section-icon"><img src="./assets/img/cloud.png" alt="安装包及补丁下载"></mdui-icon>
+                <h2 class="section-title">安装包及补丁</h2>
+            </div>
+            <mdui-card variant="elevated" style="width: 100%;">
+                <ul class="references"></ul>
+            </mdui-card>
+            <div class="table-container"></div>
+        </section>
+
+        <!-- 捐赠支持 -->
+        <section id="sponsor" class="content-section">
+            <div class="mdui-table table-container">
+                <table class="text-center">
+                    <thead>
+                        <tr>
+                            <th>微信捐赠</th>
+                            <th>支付宝捐赠</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="assets/img/wechat.jpg" width="250px">
+                            </td>
+                            <td>
+                                <img src="assets/img/alipay.jpg" width="250px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Scroll to Top -->
+    <mdui-fab id="back-to-top" icon="arrow_upward--outlined"></mdui-fab>
+
+    <script src="assets/js/continuity.js"></script>
+    <script src="assets/js/manager.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="https://unpkg.com/mdui@2.1.4/mdui.global.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

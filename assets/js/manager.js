@@ -1,0 +1,211 @@
+// 小米电脑管家 (XiaomiPCManager)
+const manager = [
+    // HyperOS 4
+    {
+        "version": "5.8.1.130",
+        "name": "TS4L_XiaomiPCManager_feature_p52_5.8.1.130_b5a04836.exe",
+        "size": 766644624,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/TS4L_XiaomiPCManager_feature_p52_5.8.1.130_b5a04836.exe",
+    },
+    {
+        "version": "5.8.1.121",
+        "name": "OvRa_XiaomiPCManager_feature_p52_5.8.1.121_7fe7f58b.exe",
+        "size": 766554216,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/OvRa_XiaomiPCManager_feature_p52_5.8.1.121_7fe7f58b.exe",
+    },
+    {
+        "version": "5.8.0.101",
+        "name": "uDko_XiaomiPCManager_hotfix_p52_95_5.8.0.101_992d896d.exe",
+        "size": 765542888,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/uDko_XiaomiPCManager_hotfix_p52_95_5.8.0.101_992d896d.exe",
+    },
+    {
+        "version": "5.8.0.95",
+        "name": "Mi_0_XiaomiPCManager_feature_p52_5.8.0.95_cc41d20c.exe",
+        "size": 765343744,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/Mi_0_XiaomiPCManager_feature_p52_5.8.0.95_cc41d20c.exe",
+    },
+    {
+        "version": "5.8.0.74",
+        "name": "NeR5_XiaomiPCManager_feature_p52_5.8.0.74_9900fa23.exe",
+        "size": 764549128,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/NeR5_XiaomiPCManager_feature_p52_5.8.0.74_9900fa23.exe",
+    },
+    {
+        "version": "5.8.0.57",
+        "name": "E7lL_XiaomiPCManager_feature_p52_5.8.0.57_d1f3f7c3.exe",
+        "size": 764413816,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/E7lL_XiaomiPCManager_feature_p52_5.8.0.57_d1f3f7c3.exe",
+    },
+    {
+        "version": "5.8.0.14",
+        "name": "suux_XiaomiPCManager_feature_p52_5.8.0.14_2d25ec22.exe",
+        "size": 754358160,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/suux_XiaomiPCManager_feature_p52_5.8.0.14_2d25ec22.exe",
+    },
+    // HyperOS 3
+    {
+        "version": "5.5.2.10",
+        "name": "uFa5_XiaomiPCManager_os3_tv_5.5.2.10_2db9763d.exe",
+        "size": 722425392,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/uFa5_XiaomiPCManager_os3_tv_5.5.2.10_2db9763d.exe",
+    },
+    {
+        "version": "5.5.2.1",
+        "name": "XiaomiPCManager_feature_p52_image_5.5.2.1_c21954c7.exe",
+        "size": 725972504,
+        "src": "",
+    },
+    {
+        "version": "5.5.0.57",
+        "name": "o-2g_XiaomiPCManager_os3_tv_5.5.0.57_9e0e3bcb.exe",
+        "size": 716145376,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/o-2g_XiaomiPCManager_os3_tv_5.5.0.57_9e0e3bcb.exe",
+    },
+    {
+        "version": "5.5.0.54",
+        "name": "UC3l_XiaomiPCManager_os3_tv_5.5.0.54_04d18d32.exe",
+        "size": 710065272,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/UC3l_XiaomiPCManager_os3_tv_5.5.0.54_04d18d32.exe",
+    },
+    {
+        "version": "5.5.0.18",
+        "name": "EHtF_XiaomiPCManager_os3_tv_5.5.0.18_04a71e45.exe",
+        "size": 692056376,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/EHtF_XiaomiPCManager_os3_tv_5.5.0.18_04a71e45.exe",
+    },
+    {
+        "version": "5.5.0.13",
+        "name": "KTAa_XiaomiPCManager_os3_tv_5.5.0.13_26230d8c.exe",
+        "size": 692042552,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/KTAa_XiaomiPCManager_os3_tv_5.5.0.13_26230d8c.exe",
+    },
+    {
+        "version": "5.4.0.264",
+        "name": "-3zz_XiaomiPCManager_master_5.4.0.264_9baec43b.exe",
+        "size": 691485088,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/-3zz_XiaomiPCManager_master_5.4.0.264_9baec43b.exe",
+    },
+    {
+        "version": "5.4.0.229",
+        "name": "U9jQ_XiaomiPCManager_master_5.4.0.229_d0173631.exe",
+        "size": 711608880,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/U9jQ_XiaomiPCManager_master_5.4.0.229_d0173631.exe",
+    },
+    {
+        "version": "5.3.2.401",
+        "name": "XiaomiPCManager_master_5.3.2.401.exe",
+        "size": 1328707376,
+        "src": "",
+    },
+    {
+        "version": "5.3.1.380",
+        "name": "L3MC_XiaomiPCManager_feature_n56s_5.3.1.380_f3600592.exe",
+        "size": 1326783712,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/L3MC_XiaomiPCManager_feature_n56s_5.3.1.380_f3600592.exe",
+    },
+    {
+        "version": "5.3.0.334",
+        "name": "XiaomiPCManager_328_hotfix_5.3.0.334_79113436.exe",
+        "size": 1325334696,
+        "src": "",
+    },
+    {
+        "version": "5.3.0.328",
+        "name": "XiaomiPCManager_feature_n56s_5.3.0.328_aa472251.exe",
+        "size": 1325488904,
+        "src": "",
+    },
+    {
+        "version": "5.2.0.207",
+        "name": "Am3B_XiaomiPCManager_feature_n56s_5.2.0.207_1aa16c7b.exe",
+        "size": 699027816,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/Am3B_XiaomiPCManager_feature_n56s_5.2.0.207_1aa16c7b.exe",
+    },
+    {
+        "version": "5.1.0.174",
+        "name": "XiaomiPCManager_feature_n56s_5.1.0.174_d23c4202.exe",
+        "size": 1033544896,
+        "src": "",
+    },
+    {
+        "version": "5.0.0.516",
+        "name": "XiaomiPCManager_feature_bbs_5.0.0.516_71a91315.exe",
+        "size": 1041020608,
+        "src": "",
+    },
+    // HyperOS 2
+    {
+        "version": "4.5.0.2025",
+        "name": "wpA7_XiaomiPCManager_feat_common_4.5.0.2025_54eb897f.exe",
+        "size": 712289704,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/wpA7_XiaomiPCManager_feat_common_4.5.0.2025_54eb897f.exe",
+    },
+    {
+        "version": "4.5.0.2015",
+        "name": "NKu3_XiaomiPCManager_feat_common_4.5.0.2015_b8b216b0.exe",
+        "size": 711949664,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/NKu3_XiaomiPCManager_feat_common_4.5.0.2015_b8b216b0.exe",
+    },
+    {
+        "version": "4.5.0.2000",
+        "name": "hfxr_XiaomiPCManager_feat_common_4.5.0.2000_90b54c4b.exe",
+        "size": 622222328,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/hfxr_XiaomiPCManager_feat_common_4.5.0.2000_90b54c4b.exe",
+    },
+    {
+        "version": "4.4.0.1968",
+        "name": "N74m_XiaomiPCManager_hyperos2_4.4.0.1968_be7ca41c.exe",
+        "size": 459362944,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/N74m_XiaomiPCManager_hyperos2_4.4.0.1968_be7ca41c.exe",
+    },
+    {
+        "version": "4.4.0.1955",
+        "name": "VEfs_XiaomiPCManager_hyperos2_4.4.0.1955_3e4379b5.exe",
+        "size": 480113304,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/VEfs_XiaomiPCManager_hyperos2_4.4.0.1955_3e4379b5.exe",
+    },
+    {
+        "version": "4.4.0.1934",
+        "name": "1JVx_XiaomiPCManager_hyperos2_4.4.0.1934_35283c9a.exe",
+        "size": 443026384,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/1JVx_XiaomiPCManager_hyperos2_4.4.0.1934_35283c9a.exe",
+    },
+    {
+        "version": "4.4.0.1920",
+        "name": "uDlL_XiaomiPCManager_hyperos2_4.4.0.1920_5fd09bd5.exe",
+        "size": 436756112,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/uDlL_XiaomiPCManager_hyperos2_4.4.0.1920_5fd09bd5.exe",
+    },
+    {
+        "version": "4.3.0.1897",
+        "name": "ix03_XiaomiPCManager_1894_hotfix_4.3.0.1897_d470b473.exe",
+        "size": 435520600,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/ix03_XiaomiPCManager_1894_hotfix_4.3.0.1897_d470b473.exe",
+    },
+    {
+        "version": "4.3.0.1894",
+        "name": "m4fG_XiaomiPCManager_hyperos2_4.3.0.1894_51f1fdf3.exe",
+        "size": 435557672,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/m4fG_XiaomiPCManager_hyperos2_4.3.0.1894_51f1fdf3.exe",
+    },
+    {
+        "version": "4.3.0.1881",
+        "name": "uhs__XiaomiPCManager_hyperos2_4.3.0.1881_a14d90c7.exe",
+        "size": 428869824,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/uhs__XiaomiPCManager_hyperos2_4.3.0.1881_a14d90c7.exe",
+    },
+    // HyperOS 1
+    {
+        "version": "4.2.4.2041",
+        "name": "GUHX_XiaomiPCManager_master_4.2.4.2041_e338810c.exe",
+        "size": 416970888,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/GUHX_XiaomiPCManager_master_4.2.4.2041_e338810c.exe",
+    },
+    {
+        "version": "4.2.4.1982",
+        "name": "ju6M_XiaomiPCManager_master_4.2.4.1982_cef36ab1.exe",
+        "size": 410357288,
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/ota-packages/ju6M_XiaomiPCManager_master_4.2.4.1982_cef36ab1.exe",
+    },
+]
